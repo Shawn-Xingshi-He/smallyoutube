@@ -1,5 +1,4 @@
 {
-
   "homepage": "https://Shawn-Xingshi-He.github.io/smallyoutube",
   "name": "youtube-api",
   "version": "0.1.0",
@@ -15,14 +14,13 @@
     "animejs": "^3.2.1",
     "framer-motion": "^7.3.6",
     "gapi-script": "^1.2.0",
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=3333 && react-scripts start",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
@@ -48,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^16.0.2"
+    "dotenv": "^16.0.2",
+    "gh-pages": "^4.0.0"
   }
 }

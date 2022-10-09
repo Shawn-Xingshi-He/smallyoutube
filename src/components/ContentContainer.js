@@ -15,7 +15,7 @@ function ContentContainer({ data }) {
   return (
     <div>
       {data.map((video) => {
-        console.log(video);
+        // console.log(video);
         return <VideoCard key={video.id.videoId} videoInfo={video} />;
       })}
     </div>
